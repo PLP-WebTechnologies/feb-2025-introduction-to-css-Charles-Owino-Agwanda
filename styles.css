@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif 'Segoe UI', Tahoma, Geneva, Verdana;
+}
+body{
+  background-color: #42455a;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content:left;
+  cursor: pointer;
+}
+nav img{
+  width: 70px;
+  height: 50px;
+  margin: 10px;
+}
+nav ul{
+  list-style: none;
+  display: inline-flex;
+  position: relative;
+  left: 150px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+nav ul li a.active{
+  color: greenyellow;
+}
+nav #signup{
+  position: absolute;
+  right:5%;
+  text-decoration: none;
+  color: white;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  background-image: linear-gradient(#18a78a,#1a2cb2), radial-gradient(circle at top left, #fd00da,#19d7f8);
+  background-origin: border-box;
+  background-clip: content-box border-box;
+}
+.content{
+  margin: 10px;
+  position: relative;
+  top: 200px;
+  max-width: 600px;
+  margin-left: 50px;
+  
+}
+.content h1{
+  color: white;
+  font-size: 50px;
+}
+.content p{
+  color: lightgray;
+  font-size: 20px;
+}
+#image{
+  width: 550px;
+  float: right;
+  position: absolute;
+  right:15%;
+  top: 15%;
+  border-radius: 100px;
+  border-top-right-radius: 0px;
+}
+.learnmore {
+  border: 3px solid red;
+  margin-top: 150px;
+}
+.learnmore .playbtn{
+  height: 50px;
+  width: 50px;
+}
+
+  
+  
